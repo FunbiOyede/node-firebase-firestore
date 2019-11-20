@@ -1,0 +1,63 @@
+[debug] [2019-11-20T11:53:29.320Z] ----------------------------------------------------------------------
+[debug] [2019-11-20T11:53:29.326Z] Command:       /usr/local/bin/firebase /home/lisabi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve --only functions
+[debug] [2019-11-20T11:53:29.327Z] CLI Version:   7.8.0
+[debug] [2019-11-20T11:53:29.327Z] Platform:      linux
+[debug] [2019-11-20T11:53:29.327Z] Node Version:  v10.15.3
+[debug] [2019-11-20T11:53:29.327Z] Time:          Wed Nov 20 2019 12:53:29 GMT+0100 (West Africa Standard Time)
+[debug] [2019-11-20T11:53:29.327Z] ----------------------------------------------------------------------
+[debug] [2019-11-20T11:53:29.327Z] 
+[debug] [2019-11-20T11:53:29.338Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-20T11:53:29.338Z] > authorizing via signed-in user
+[debug] [2019-11-20T11:53:29.338Z] [iam] checking project node-firebase-7d509 for permissions ["firebase.projects.get"]
+[debug] [2019-11-20T11:53:29.341Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/node-firebase-7d509:testIamPermissions  
+
+[debug] [2019-11-20T11:53:31.200Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-20T11:53:31.203Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/node-firebase-7d509  
+ 
+[debug] [2019-11-20T11:53:32.401Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/home/lisabi/Documents/Projects/firestore-api/functions" for Cloud Functions...
+[debug] [2019-11-20T11:53:32.704Z] [worker-~diagnostic~-0e465733-bdba-4c7c-8588-ca47c444557c]: Assigning socketPath: /tmp/firebase_emulator_invocation_0e465733-bdba-4c7c-8588-ca47c444557c.sock
+[debug] [2019-11-20T11:53:32.704Z] [worker-~diagnostic~-0e465733-bdba-4c7c-8588-ca47c444557c]: BUSY
+[debug] [2019-11-20T11:53:33.333Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"10.15.3"}
+[debug] [2019-11-20T11:53:33.336Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-20T11:53:33.344Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-20T11:53:33.344Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-20T11:53:33.344Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module 'node-firebase-7d509-firebase-adminsdk-r1kes-b41e6d7d24.json'
+1) If you want to compile the package/file into executable, please pay attention to compilation warnings and specify a literal in 'require' call. 2) If you don't want to compile the package/file into executable and want to 'require' it from filesystem (likely plugin), specify an absolute path in 'require' call using process.cwd() or process.execPath.
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+    at Function.Module._resolveFilename (pkg/prelude/bootstrap.js:1287:46)
+    at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+    at Module.require (internal/modules/cjs/loader.js:635:17)
+    at Module.require (pkg/prelude/bootstrap.js:1166:31)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/lisabi/Documents/Projects/firestore-api/functions/index.js:9:22)
+    at Module._compile (internal/modules/cjs/loader.js:699:30)
+    at Module._compile (pkg/prelude/bootstrap.js:1222:32)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:710:10)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2019-11-20T11:53:33.530Z] [worker-~diagnostic~-0e465733-bdba-4c7c-8588-ca47c444557c]: exited
+[debug] [2019-11-20T11:53:33.531Z] [worker-~diagnostic~-0e465733-bdba-4c7c-8588-ca47c444557c]: FINISHED
+[debug] [2019-11-20T11:54:02.069Z] File /home/lisabi/Documents/Projects/firestore-api/functions/index.js changed, reloading triggers
+[debug] [2019-11-20T11:54:03.078Z] [worker-~diagnostic~-1cd7f930-3161-4e35-8799-88e454924293]: Assigning socketPath: /tmp/firebase_emulator_invocation_1cd7f930-3161-4e35-8799-88e454924293.sock
+[debug] [2019-11-20T11:54:03.079Z] [worker-~diagnostic~-1cd7f930-3161-4e35-8799-88e454924293]: BUSY
+[debug] [2019-11-20T11:54:03.717Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"10.15.3"}
+[debug] [2019-11-20T11:54:03.722Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-20T11:54:03.726Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-20T11:54:03.729Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-20T11:54:03.731Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[info] ✔  functions[App]: http function initialized (http://localhost:5000/node-firebase-7d509/us-central1/App).
+[debug] [2019-11-20T11:54:03.989Z] [worker-~diagnostic~-1cd7f930-3161-4e35-8799-88e454924293]: exited
+[debug] [2019-11-20T11:54:03.990Z] [worker-~diagnostic~-1cd7f930-3161-4e35-8799-88e454924293]: FINISHED
+[debug] [2019-11-20T11:55:48.086Z] File /home/lisabi/Documents/Projects/firestore-api/functions/index.js changed, reloading triggers
+[debug] [2019-11-20T11:55:49.096Z] [worker-~diagnostic~-c7fb6876-9567-4551-914b-4c4dde3346ea]: Assigning socketPath: /tmp/firebase_emulator_invocation_c7fb6876-9567-4551-914b-4c4dde3346ea.sock
+[debug] [2019-11-20T11:55:49.096Z] [worker-~diagnostic~-c7fb6876-9567-4551-914b-4c4dde3346ea]: BUSY
+[debug] [2019-11-20T11:55:49.822Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"10.15.3"}
+[debug] [2019-11-20T11:55:49.826Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-20T11:55:49.830Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-20T11:55:49.833Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-20T11:55:49.836Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-20T11:55:50.576Z] [worker-~diagnostic~-c7fb6876-9567-4551-914b-4c4dde3346ea]: exited
+[debug] [2019-11-20T11:55:50.576Z] [worker-~diagnostic~-c7fb6876-9567-4551-914b-4c4dde3346ea]: FINISHED

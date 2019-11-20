@@ -1,0 +1,20 @@
+{
+  "name": "firestore-api",
+  "version": "1.0.0",
+  "description": "api with firebase firestore",
+  "main": "app.js",
+  "repository": "https://github.com/FunbiOyede/node-firebase-firestore",
+  "author": "FunbiOyede <oyedetobi49@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-tools": "^7.8.0",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "cd functions; yarn serve"
+  }
+}
