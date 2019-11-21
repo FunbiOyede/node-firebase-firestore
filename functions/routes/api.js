@@ -7,7 +7,7 @@ router.get("/api/user", firestore.get_all_user);
 router.put("/api/user/update/:id", firestore.update_user);
 
 // delete user
-router.delete("/api/delete/:id", firestore.delete_user);
+router.delete("/api/user/delete/:id", firestore.delete_user);
 
 // create user
 router.post("/api/create", firestore.create_user);
