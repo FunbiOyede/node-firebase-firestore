@@ -9,47 +9,73 @@ admin.initializeApp({
 // creates a firestore instance
 const db = admin.firestore();
 
-// create new user
-const create_user = async (req, res) => {
-  try {
-    await db
-      .collection("users")
-      .doc("/" + req.body.id + "/")
-      .create({
-        email: req.body.email,
-        first_name: req.body.first_name,
-        second_name: req.body.second_name
-      });
-    return res.status(200).send("user successfully  created");
-  } catch (error) {
-    console.log(error);
-    return res.status(500).send({ error: error });
-  }
+/**
+ *
+ * @param {*} req
+ * @param {*} res
+ * @function creates a new user
+ */
+const create_user = (req, res) => {
+  let users = db.collection("users");
+  return users
+    .doc("/" + req.body.id + "/")
+    .create({
+      email: req.body.email,
+      first_name: req.body.first_name,
+      second_name: req.body.second_name
+    })
+    .then(() => {
+      return res.status(200).send("user successfully created");
+    })
+    .catch(error => {
+      console.log(error);
+      return res.status(500).send({ error: error });
+    });
 };
 
-// get a user
+/**
+ *
+ * @param {*} req
+ * @param {*} res
+ * @function gets user
+ */
 const get_user = async (req, res) => {
-  try {
-    const userDocument = db.collection("users").doc(req.params.id);
-    let user = await userDocument.get();
-    let response = user.data();
-    return res.status(200).send(response);
-  } catch (error) {
-    return res.status(500).send(error);
-  }
+  const userDocument = db.collection("users").doc(req.params.id);
+  return userDocument
+    .get()
+    .then(doc => {
+      let response = doc.data();
+      return res.status(200).send(response);
+    })
+    .catch(error => {
+      return res.status(500).send(error);
+    });
 };
 
-// delete a particular user
+/**
+ *
+ * @param {*} req
+ * @param {*} res
+ * @function deletes users
+ */
 const delete_user = async (req, res) => {
-  try {
-    const userDocument = db.collection("users").doc(req.params.id);
-    await userDocument.delete();
-    return res.status(200).send("user successfully  deleted");
-  } catch (error) {
-    return res.status(500).send(error);
-  }
+  const userDocument = db.collection("users").doc(req.params.id);
+  return userDocument
+    .delete()
+    .then(() => {
+      return res.status(200).send("user successfully  deleted");
+    })
+    .catch(error => {
+      return res.status(500).send(error);
+    });
 };
-// update user
+
+/**
+ *
+ * @param {*} req
+ * @param {*} res
+ * @function updates user data
+ */
 const update_user = (req, res) => {
   const userDocument = db.collection("users").doc(req.params.id);
   return userDocument
@@ -66,7 +92,12 @@ const update_user = (req, res) => {
     });
 };
 
-// all users
+/**
+ *
+ * @param {*} req
+ * @param {*} res
+ * @function gets all users
+ */
 const get_all_user = (req, res) => {
   let users = db.collection("users");
   let response = [];
@@ -78,7 +109,6 @@ const get_all_user = (req, res) => {
           id: doc.id,
           data: doc.data()
         };
-
         response.push(selectedItem);
       });
       return res.status(200).send(response);
