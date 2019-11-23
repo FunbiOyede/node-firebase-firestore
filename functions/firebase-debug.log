@@ -210,3 +210,20 @@
 [debug] [2019-11-23T18:22:51.356Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
 [debug] [2019-11-23T18:22:51.629Z] [worker-~diagnostic~-1fbadc73-744b-44a5-8c7d-b95fff0a6fcf]: exited
 [debug] [2019-11-23T18:22:51.630Z] [worker-~diagnostic~-1fbadc73-744b-44a5-8c7d-b95fff0a6fcf]: FINISHED
+[debug] [2019-11-23T18:25:23.664Z] Accepted request POST /node-firebase-7d509/us-central1/App/api/user/create --> App
+[debug] [2019-11-23T18:25:23.669Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: Assigning socketPath: /tmp/firebase_emulator_invocation_7c66359d-fd84-4b40-9caa-0894a88ca2f4.sock
+[debug] [2019-11-23T18:25:23.669Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: BUSY
+[debug] [2019-11-23T18:25:24.013Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:25:24.016Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:25:24.019Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:25:24.021Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:25:24.021Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:25:24.312Z] [runtime-status] Trigger "App" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "App"
+[debug] [2019-11-23T18:25:24.313Z] [runtime-status]  {"httpsTrigger":{},"name":"App","entryPoint":"App"}
+[debug] [2019-11-23T18:25:24.313Z] [runtime-status] Running App in mode HTTPS {}
+[debug] [2019-11-23T18:25:24.323Z] [functions] Runtime ready! Sending request!
+[debug] [2019-11-23T18:25:24.366Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-23T18:25:24.725Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "App" in ~8s
+[debug] [2019-11-23T18:25:32.576Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: IDLE

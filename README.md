@@ -2,7 +2,6 @@
 
 A CRUD RESTFUL API USING FIREBASE FIRESTORE
 
-
 ### 1. Clone the repo
 
 Clone the repo locally. In a terminal, run:
@@ -48,7 +47,11 @@ The API expect the following Parameters: </br>
 `last_name` of type string </br>
 `first_name` of type string </br>
 
-### 4. Endpoints
+### 4. Using Postman
+
+Make sure post is set to either `x-www-form-urlencoded` or `raw json format`
+
+### 5. Endpoints
 
 - create user (POST): `/api/create`
 - delete user (DELETE): `/api/delete/:id`
