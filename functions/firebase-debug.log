@@ -227,3 +227,66 @@
 [debug] [2019-11-23T18:25:24.725Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "App" in ~8s
 [debug] [2019-11-23T18:25:32.576Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: IDLE
+[debug] [2019-11-23T18:28:46.917Z] File /home/lisabi/Documents/Projects/firestore-api/functions/index.js changed, reloading triggers
+[debug] [2019-11-23T18:28:47.918Z] [worker-pool]: Shutting down IDLE worker (App)
+[debug] [2019-11-23T18:28:47.924Z] [worker-~diagnostic~-0113dec4-3057-483e-b9b0-2d3796710529]: Assigning socketPath: /tmp/firebase_emulator_invocation_0113dec4-3057-483e-b9b0-2d3796710529.sock
+[debug] [2019-11-23T18:28:47.924Z] [worker-~diagnostic~-0113dec4-3057-483e-b9b0-2d3796710529]: BUSY
+[debug] [2019-11-23T18:28:47.925Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: exited
+[debug] [2019-11-23T18:28:47.925Z] [worker-App-7c66359d-fd84-4b40-9caa-0894a88ca2f4]: FINISHED
+[debug] [2019-11-23T18:28:48.257Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:28:48.260Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:28:48.263Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:28:48.265Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:28:48.266Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:28:48.569Z] [worker-~diagnostic~-0113dec4-3057-483e-b9b0-2d3796710529]: exited
+[debug] [2019-11-23T18:28:48.569Z] [worker-~diagnostic~-0113dec4-3057-483e-b9b0-2d3796710529]: FINISHED
+[debug] [2019-11-23T18:30:41.777Z] File /home/lisabi/Documents/Projects/firestore-api/functions/controllers/firestoreContollers.js changed, reloading triggers
+[debug] [2019-11-23T18:30:42.784Z] [worker-~diagnostic~-69813045-88db-4d1f-ab92-7726294a33aa]: Assigning socketPath: /tmp/firebase_emulator_invocation_69813045-88db-4d1f-ab92-7726294a33aa.sock
+[debug] [2019-11-23T18:30:42.785Z] [worker-~diagnostic~-69813045-88db-4d1f-ab92-7726294a33aa]: BUSY
+[debug] [2019-11-23T18:30:43.155Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:30:43.158Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:30:43.160Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:30:43.162Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:30:43.163Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:30:43.421Z] [worker-~diagnostic~-69813045-88db-4d1f-ab92-7726294a33aa]: exited
+[debug] [2019-11-23T18:30:43.421Z] [worker-~diagnostic~-69813045-88db-4d1f-ab92-7726294a33aa]: FINISHED
+[debug] [2019-11-23T18:31:15.110Z] Accepted request POST /node-firebase-7d509/us-central1/App/api/user/create --> App
+[debug] [2019-11-23T18:31:15.117Z] [worker-App-f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323]: Assigning socketPath: /tmp/firebase_emulator_invocation_f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323.sock
+[debug] [2019-11-23T18:31:15.117Z] [worker-App-f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323]: BUSY
+[debug] [2019-11-23T18:31:15.466Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:31:15.469Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:31:15.472Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:31:15.475Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:31:15.475Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:31:15.729Z] [runtime-status] Trigger "App" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "App"
+[debug] [2019-11-23T18:31:15.730Z] [runtime-status]  {"httpsTrigger":{},"name":"App","entryPoint":"App"}
+[debug] [2019-11-23T18:31:15.730Z] [runtime-status] Running App in mode HTTPS {}
+[debug] [2019-11-23T18:31:15.742Z] [functions] Runtime ready! Sending request!
+[debug] [2019-11-23T18:31:15.783Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-11-23T18:31:16.149Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "App" in ~8s
+[debug] [2019-11-23T18:31:23.986Z] [worker-App-f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323]: IDLE
+[debug] [2019-11-23T18:38:29.287Z] File /home/lisabi/Documents/Projects/firestore-api/functions/controllers/firestoreContollers.js changed, reloading triggers
+[debug] [2019-11-23T18:38:30.288Z] [worker-pool]: Shutting down IDLE worker (App)
+[debug] [2019-11-23T18:38:30.306Z] [worker-~diagnostic~-6a4c6436-3f91-4e69-a1b5-24d96552021d]: Assigning socketPath: /tmp/firebase_emulator_invocation_6a4c6436-3f91-4e69-a1b5-24d96552021d.sock
+[debug] [2019-11-23T18:38:30.306Z] [worker-~diagnostic~-6a4c6436-3f91-4e69-a1b5-24d96552021d]: BUSY
+[debug] [2019-11-23T18:38:30.307Z] [worker-App-f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323]: exited
+[debug] [2019-11-23T18:38:30.307Z] [worker-App-f80416fe-ca8c-4ee1-adf4-d5cf6eb4e323]: FINISHED
+[debug] [2019-11-23T18:38:30.708Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:38:30.711Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:38:30.713Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:38:30.716Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:38:30.716Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:38:30.978Z] [worker-~diagnostic~-6a4c6436-3f91-4e69-a1b5-24d96552021d]: exited
+[debug] [2019-11-23T18:38:30.978Z] [worker-~diagnostic~-6a4c6436-3f91-4e69-a1b5-24d96552021d]: FINISHED
+[debug] [2019-11-23T18:42:22.940Z] File /home/lisabi/Documents/Projects/firestore-api/functions/controllers/firestoreContollers.js changed, reloading triggers
+[debug] [2019-11-23T18:42:23.947Z] [worker-~diagnostic~-3951d634-4c85-433b-97cf-5a4601940ccc]: Assigning socketPath: /tmp/firebase_emulator_invocation_3951d634-4c85-433b-97cf-5a4601940ccc.sock
+[debug] [2019-11-23T18:42:23.948Z] [worker-~diagnostic~-3951d634-4c85-433b-97cf-5a4601940ccc]: BUSY
+[debug] [2019-11-23T18:42:24.338Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/lisabi/Documents/Projects/firestore-api/functions","node_version":"8.16.2"}
+[debug] [2019-11-23T18:42:24.342Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true} {}
+[debug] [2019-11-23T18:42:24.344Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.8.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-23T18:42:24.346Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:42:24.347Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/home/lisabi/Documents/Projects/firestore-api/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-23T18:42:24.642Z] [worker-~diagnostic~-3951d634-4c85-433b-97cf-5a4601940ccc]: exited
+[debug] [2019-11-23T18:42:24.642Z] [worker-~diagnostic~-3951d634-4c85-433b-97cf-5a4601940ccc]: FINISHED

@@ -8,6 +8,7 @@ const app = express();
 
 app.use(cors({ origin: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // routes middleware
 app.use(route);

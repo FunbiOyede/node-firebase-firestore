@@ -25,11 +25,10 @@ const create_user = (req, res) => {
       second_name: req.body.second_name
     })
     .then(() => {
-      return res.status(200).send("user successfully created");
+      return res.status(201).json({ response: "user successfully created" });
     })
     .catch(error => {
-      console.log(error);
-      return res.status(500).send({ error: error });
+      return res.status(500).json({ error: error });
     });
 };
 
@@ -45,10 +44,10 @@ const get_user = async (req, res) => {
     .get()
     .then(doc => {
       let response = doc.data();
-      return res.status(200).send(response);
+      return res.status(200).json({ response: response });
     })
     .catch(error => {
-      return res.status(500).send(error);
+      return res.status(500).json({ error: error });
     });
 };
 
@@ -63,10 +62,10 @@ const delete_user = async (req, res) => {
   return userDocument
     .delete()
     .then(() => {
-      return res.status(200).send("user successfully  deleted");
+      return res.status(204);
     })
     .catch(error => {
-      return res.status(500).send(error);
+      return res.status(500).json({ error: error });
     });
 };
 
@@ -85,10 +84,12 @@ const update_user = (req, res) => {
       second_name: req.body.second_name
     })
     .then(() => {
-      return res.status(200).send("user successfully updated");
+      return res
+        .status(200)
+        .json({ response: "user data successfully updated" });
     })
     .catch(() => {
-      return res.status(500).send(error);
+      return res.status(500).json({ error: error });
     });
 };
 
@@ -111,10 +112,10 @@ const get_all_user = (req, res) => {
         };
         response.push(selectedItem);
       });
-      return res.status(200).send(response);
+      return res.status(200).json({ response: response });
     })
     .catch(() => {
-      return res.status(500).send(error);
+      return res.status(500).json({ error: error });
     });
 };
 
